@@ -1,0 +1,19 @@
+.bookingform {
+    max-width: 50%;
+}
+
+.active{
+    color: white;
+}
+
+table {
+    border: none;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}

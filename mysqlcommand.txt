@@ -1,0 +1,20 @@
+Davina Phan
+1300285
+COMP721
+Assignment 2
+
+//below is the code for creating a database in SQL
+
+CREATE TABLE cabsOnline (
+    name VARCHAR(50) NOT NULL,
+    phone VARCHAR(12) NOT NULL,
+    unit_number VARCHAR(5),
+    street_number VARCHAR(5) NOT NULL,
+    street_name VARCHAR(30) NOT NULL,
+    suburb VARCHAR(20),
+    destination VARCHAR(20),
+    pickupDate VARCHAR(10) NOT NULL,
+    pickupTime TIME NOT NULL,
+    status ENUM('Unassigned','Assigned') NOT NULL DEFAULT 'Unassigned',
+    bookingRef VARCHAR(8) PRIMARY KEY
+    )
